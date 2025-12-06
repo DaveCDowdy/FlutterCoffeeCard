@@ -1,0 +1,59 @@
+# === GIT IGNORE FOR FLUTTER/DART PROJECTS ===
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+packages/
+
+# IDE and Editor Related
+# IntelliJ/Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+/android/local.properties # Contains machine-specific SDK location
+
+# VS Code (Uncomment if you want to ignore workspace settings)
+#.vscode/
+
+# Flutter/Dart/Pub Related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Platform Specific Builds and Dependencies
+
+# Android/Gradle
+/android/.gradle/ # Gradle cache
+/android/key.properties # Contains local signing info
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS/CocoaPods
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/ephemeral/ # Generated files
+
+# Symbolication and Obfuscation Related
+app.*.symbols
+app.*.map.json
+
+# If you need to ignore specific test/mock output
+/test_assets/
