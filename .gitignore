@@ -27,6 +27,7 @@ packages/
 #.vscode/
 
 # Flutter/Dart/Pub Related
+.metadata  # <-- ADDED: Generated file tracking SDK info
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
